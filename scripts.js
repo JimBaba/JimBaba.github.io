@@ -42,7 +42,7 @@ console.log(ticket1,ticket2,ticket3,ticket4,ticket5,ticket6,ticket7,ticket8,tick
 function addIntro(){
 
 let explain = document.createElement("p");
-explain.innerHTML = "Bei einer Auslastung von " + fullHouse + " setzen sich die Ticketbestellmengen im Schnitt wie zusammen: ";
+explain.innerHTML = "Bei einem Ticketverkauf von " + tickets + " setzen sich die Ticketbestellmengen im Schnitt wie zusammen: ";
 introTickets.appendChild(explain).setAttribute("id","intro");
 
 let t1 = document.createElement("p");
